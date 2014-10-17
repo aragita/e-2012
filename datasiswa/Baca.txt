@@ -1,0 +1,12 @@
+Web Source Pack
+This pack contains web script
+
+Name	: Sistem Aplikasi Manajemen Database Pendidikan
+          Berbasis Web
+
+Note	: Silakan Dump terlebih dahulu databasenya
+Tester	: Work by arul-id.com
+
+
+
+Uploader © arul-id.com

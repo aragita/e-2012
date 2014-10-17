@@ -1,0 +1,24 @@
+<?php
+session_start();
+if($userid=="-"){
+header("location:./index.php?err2");
+}else{
+include"./sambung.php";
+$baca=mysql_query("select password,level from admin where userid='$userid'");
+$hasil=mysql_fetch_array($baca);
+if($password==""){
+header("location:./index.php?err3");
+}elseif($hasil[password]==$password){
+$level="$hasil[level]";
+session_register("userid");
+session_register("level");
+if($level=="3"){
+header("location:./laporan.php");
+}else{
+header("location:./administrator.php");
+}
+}else{
+header("location:./index.php?err1");
+}
+}
+?>
