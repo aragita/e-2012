@@ -1,0 +1,22 @@
+@media print {
+	#menu { display:none; }
+}
+
+@media screen {
+	#materi {
+		padding:5px;
+		background-color:;
+		width:550px;
+		float:center;
+	}
+	#menu {
+		font-size:14px;
+		padding:5px;
+		float:center;
+		width:615px;
+		background-color:;
+	}
+}
+
+
+
